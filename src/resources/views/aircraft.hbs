@@ -1,0 +1,47 @@
+<div class="table-responsive bg-white" style="margin-top: 57px !important;">
+    <table id="example" class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Registration</th>
+                <th>Msn</th>
+                <th>Fsn</th>
+                <th>Model</th>
+                <th>Engine</th>
+                <th>Apu</th>
+                <th>Capacity</th>
+                <th>MTOW</th>
+                <th>Tire Press</th>
+                <th>Owner</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each aircrafts}}
+            <tr>
+                <td>{{this.registration}}</td>
+                <td>{{this.msn}}</td>
+                <td>{{this.fsn}}</td>
+                <td>{{this.model}}</td>
+                <td>{{this.engine}}</td>
+                <td>{{this.apu}}</td>
+                <td>{{this.capacity}}</td>
+                <td>{{this.mtow}}</td>
+                <td>{{this.tirepress}}</td>
+                <td>{{this.owner}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+
+    <script src="/css/jquery-3.5.1.js"></script>
+    <script src="/css/jquery.dataTables.min.js"></script>
+    <script src="/css/dataTables.bootstrap5.min.js"></script>
+    <script src="/css/bootstrap.js"></script>    
+    <script>
+        $(document).ready(function() {
+        $('#example').DataTable();
+} );
+    </script>    
+</div>
+    

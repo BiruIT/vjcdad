@@ -1,0 +1,97 @@
+.ml-auto {
+  margin-left: auto; }
+
+.mr-auto {
+  margin-right: auto; }
+
+.navbar-nav a {
+  text-transform: uppercase;
+  color: white !important;
+  font-weight: bolder;
+  transition: 0.5s; }
+
+.navbar-nav a:hover {
+  color: #ccc;
+  background-color: #f899a3;
+  border-color: #f899a3; }
+
+.navbar-brand {
+  text-transform: uppercase;
+  color: white !important;
+  font-weight: bolder;
+  text-shadow: 3px 3px 12px #fff; }
+
+.home-page-bg {
+  background-image: url(/img/vietjetair.jpg);
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%; }
+
+.home-page-content {
+  text-align: center;
+  transform: translateY(150px);
+  color: white;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-shadow: 2px 2px 10px #651616; }
+
+.home-page-content li {
+  list-style-type: none;
+  margin: 20px 10px; }
+
+.home-page-content li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 0px #000;
+  padding: 5px 10px 10px 10px;
+  transition: 0.3s; }
+
+.home-page-content li a:hover {
+  text-shadow: 0px 0px 40px #000;
+  box-shadow: 0px 0px 40px 0px #000; }
+
+.gallery-slide {
+  height: 100vh;
+  width: 100%;
+  background-color: #dc3545; }
+
+.carousel-inner {
+  transform: translateY(56px); }
+
+.carousel-item img {
+  height: 90vh !important;
+  object-fit: cover; }
+
+.form-container {
+  border: 0px solid #fff;
+  padding: 50px 60px;
+  margin-top: 20vh;
+  -webkit-box-shadow: 0px 4px 26px 11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 26px 11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 26px 11px rgba(0, 0, 0, 0.75); }
+
+.button-form {
+  margin: 20px 10px 20px 10px; }
+
+.content-center {
+  text-align: center;
+  color: #fff; }
+
+.form-container a {
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-decoration: none;
+  text-shadow: 0px 0px 1px #fff; }
+
+.form-container a:hover {
+  background-color: #ca2535;
+  text-shadow: 0px 0px 5px #ccc; }
