@@ -1,0 +1,44 @@
+{
+  "name": "vjcdad",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "beautiful": "prettier --single-quote --trailing-comma all --tab-width 4 --write src/**/*.{js,json,scss} ",
+    "watch": "node-sass -w src/resources/scss/app.scss src/public/css/app.css",
+    "start": "node src/index.js",
+    "dev": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tvn",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiruIT/vjcdad_handlebars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BiruIT/vjcdad_handlebars/issues"
+  },
+  "homepage": "https://github.com/BiruIT/vjcdad_handlebars#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.1",
+    "mongoose": "^5.13.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
